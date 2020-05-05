@@ -1,5 +1,0 @@
-def circle(a, r):  # 半径r
-    circumference = 2 * math.pi * r  # 圆的周长
-    n = 50  # 周长分成n份
-    length = circumference / n  # 每份的长度
-    polygon(a, n, length)
